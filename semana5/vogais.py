@@ -15,7 +15,7 @@ def vogal(char):
                         return True
                     else:
                         return False
-                    
+
 # Testes:
 def test_vogal_a():
     assert vogal("a") == True
